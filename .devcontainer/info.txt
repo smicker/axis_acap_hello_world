@@ -1,0 +1,4 @@
+The Dockerfile and devcontainer.json in .devcontainer
+folder is just to make it possible for Visual Studio
+to jump inside the docker container and execute there
+with the extension "Remote - Containers".

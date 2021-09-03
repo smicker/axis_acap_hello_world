@@ -1,0 +1,6 @@
+{
+	"name": "ACAP SDK ",
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+}
