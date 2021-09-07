@@ -22,7 +22,7 @@ Your local build folder will now contain the build files, including the .eap fil
 Start a container from the image you created (hello_world) or from the main 3.3-armv7hf-ubuntu20.04 image:  
 ```docker run --rm -v $PWD/app:/opt/app -it hello_world:1.0```  
 or  
-```docker run --rm -v $PWD/app:/opt/app -it 3.3-armv7hf-ubuntu20.04```  
+```docker run --rm -v $PWD/app:/opt/app -it axisecp/acap-sdk:3.3-armv7hf-ubuntu20.04```  
 
 **axisecp/acap-sdk**            The Docker hub repostitory  
 **3.3-armv7hf-ubuntu20.04**     The tag that points out which SDK version and architecture to use  
